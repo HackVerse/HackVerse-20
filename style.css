@@ -109,7 +109,8 @@ ul {
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: rgb(42, 129, 103); }
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
 
 .bg-gradient-overlay {
   position: relative;
