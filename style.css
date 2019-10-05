@@ -147,6 +147,7 @@ ul {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 100%); }
 
 .bg-img {
+  /*background-image: url("./img/bg-img/bg.jpg");*/ 
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important; }
@@ -179,7 +180,8 @@ ul {
   width: 100%;
   top: 20px;
   width: 30px;
-  background: #df42b1;
+  /*background: #df42b1;*/
+  background: #55C1AA;
   height: 30px;
   line-height: 30px; }
 
@@ -189,7 +191,7 @@ img.mfp-img {
 
 button.mfp-close,
 button.mfp-arrow {
-  background: #df42b1; }
+  background: #55C1AA; }
 
 .mfp-bottom-bar {
   display: none !important; }
@@ -1084,8 +1086,8 @@ input:required {
       width: 100%; }
     .main-footer-area .single-footer-widget .footer-gallery a::before {
       background: #c63fa4;
-      background-image: -webkit-linear-gradient(120deg, #505add 0%, #df42b1 100%);
-      background-image: -ms-linear-gradient(120deg, #505add 0%, #df42b1 100%);
+      background-image: -webkit-linear-gradient(120deg, #233452 0%, #55c1aa 100%);
+      background-image: -ms-linear-gradient(120deg, #233452 0%, #55c1aa 100%);
       content: "";
       height: 100%;
       position: absolute;
@@ -1195,7 +1197,7 @@ input:required {
 /* :: FAQ Section CSS; */
 
 #faq a {
-    color: #FF8A5B;
+    color: #55C1AA;
     transition: 0.5s;
     text-decoration: none;
 }
@@ -1208,7 +1210,7 @@ input:required {
 
 #faq {
     padding: 80px 0 60px 0;
-    background: rgba(13, 20, 41, 0.8);
+    background: #233452;
 }
 
 #faq h2 {
