@@ -1,1 +1,1 @@
-include             : ["index.html","style.css","style.css.map"]
+exclude             : ["about.html","blog.html","contact.html","gulpfile.js","package.json","package-lock.json","README.md","schedule.html","single-blog.html","speakers.html","tickets.html"]
