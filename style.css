@@ -2871,7 +2871,7 @@ input:required {
           -ms-flex-align: center;
           -webkit-box-align: center;
           align-items: center;
-          background-color: #3770FF;
+          background-color: #233452;
           border-radius: 3px;
           border: none;
           color: #FFFFFF;
@@ -2892,7 +2892,7 @@ input:required {
       }
       
       #devfolio-apply-now:hover {
-          background-color: #2954BF !important;
+          background-color: #55C1AA !important;
       }
 
 /*# sourceMappingURL=style.css.map */
