@@ -559,7 +559,13 @@
                             <a target="_blank" rel="noopener noreferrer" href="https://matic.network"><img src="img/sponsors-img/matic.png" alt=""></a>
                         </div>
                     </div>
-                    <p style="display:flex;justify-content: center;">Interested in sponsoring Hackverse? Shoot us an email at <a style="color:#9293bc; font-weight: normal; text-indent: 0.2em;" href="mailto:hackverse@nitk.edu.in" target="_blank">hackverse@nitk.edu.in</a></p>
+                    <div id="desktop">
+                        <p style="display:flex;justify-content: center;">Interested in sponsoring Hackverse? Shoot us an email at <a style="color:#9293bc; font-weight: normal; text-indent: 0.2em;" href="mailto:hackverse@nitk.edu.in" target="_blank">hackverse@nitk.edu.in</a></p>
+                    </div>
+                    <div id="mobile">
+                        <p style="display:flex;justify-content: center;font-size: 15px">Interested in sponsoring Hackverse?</p>
+                        <p style="display:flex;justify-content: center;font-size: 15px">Shoot us an email at <a style="color:#9293bc; font-weight: normal; text-indent: 0.2em;" href="mailto:hackverse@nitk.edu.in" target="_blank">hackverse@nitk.edu.in</a></p>
+                    </div>
                 </div>
 
                 <!-- <div class="col-12">
@@ -806,6 +812,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/default-assets/active.js"></script>
     <script src="https://use.fontawesome.com/940386bfc9.js"></script>
     <script>
+        var mobile = document.getElementById('mobile');
+        var desktop = document.getElementById('desktop');
+
+        mobile.style.display = "none";
+
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            mobile.style.display = "block";
+            desktop.style.display = "none";
+            mobile.style.fontSize = ""
+        }
         document.addEventListener('DOMContentLoaded', function () {
             let devfolioOptions = {
                 buttonSelector: '#devfolio-apply-now',
