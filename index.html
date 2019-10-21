@@ -556,7 +556,10 @@
                             <a target="_blank" rel="noopener noreferrer" href="https://matic.network"><img src="img/sponsors-img/matic.png" alt=""></a>
                         </div>
                         <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.creative-tim.com/"><img  src="img/sponsors-img/tim-horizontal-logo-transparent-bg.png" alt=""></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.creative-tim.com/"><img src="img/sponsors-img/tim-horizontal-logo-transparent-bg.png" alt=""></a>
+                        </div>
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.stickermule.com/"><img src="img/sponsors-img/sticker-mule-logo-light.png" alt=""></a>
                         </div>
                     </div>
                     <div id="desktop">
@@ -821,6 +824,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             mobile.style.display = "block";
             desktop.style.display = "none";
             mobile.style.fontSize = ""
+
+            var about_sections = [...document.getElementById('about').getElementsByClassName('row align-items-center')];
+            console.log(about_sections);
+            about_sections.map((section) => {
+                section.style.display = "flex";
+                section.style.justifyContent = "center";
+
+                var h3_tag = section.querySelector('h3.wow.fadeInUp');
+                h3_tag.style.display = "flex";
+                h3_tag.style.justifyContent = "center";
+
+                var content = section.querySelector('p.wow.fadeInUp');
+                content.style.textAlign = "center";
+            });
         }
         document.addEventListener('DOMContentLoaded', function () {
             let devfolioOptions = {
