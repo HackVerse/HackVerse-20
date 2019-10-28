@@ -2692,7 +2692,8 @@ input:required {
     justify-content: center;
     margin-left: -1px;
     margin-top: -1px; 
-    margin-right: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
   }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .our-sponsor-area .single-sponsor {
