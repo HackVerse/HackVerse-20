@@ -123,10 +123,10 @@ ul {
     top: 0;
     left: 0;
     z-index: -1;
-    background: #c63fa4;
-    background-image: -moz-linear-gradient(120deg, #df42b1 0%, #505add 100%);
-    background-image: -webkit-linear-gradient(120deg, #df42b1 0%, #505add 100%);
-    background-image: -ms-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    background: white;
+    /* background-image: -moz-linear-gradient(120deg, white 0%, #505add 100%);
+    background-image: -webkit-linear-gradient(120deg, white 0%, #505add 100%);
+    background-image: -ms-linear-gradient(120deg, white 0%, #505add 100%); */
     opacity: 0.9; }
 
 .bg-gradient-overlay-2 {
@@ -2901,4 +2901,8 @@ svg path {
   fill: #fff !important;
 }
 
+/* .our-blog-area .bg-img .bg-gradient-overlay .section-padding-100-60{
+  background: white !important;
+  background-image: none !important;
+} */
 /*# sourceMappingURL=style.css.map */
