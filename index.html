@@ -968,7 +968,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 h3_tag.style.justifyContent = "center";
 
                 var content = section.querySelector('p.wow.fadeInUp');
-                content.style.textAlign = "center";
+                if(content != null) {
+                    content.style.textAlign = "center";
+                }
             });
         }
         document.addEventListener('DOMContentLoaded', function () {
