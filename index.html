@@ -941,37 +941,61 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         var mobile_logo = document.getElementById('logo-mob');        
         var desktop_logo = document.getElementById('logo-pc');
 
-        mobile_logo.onclick = function(){
-            window.location.href = "https://nitk.ac.in"
+        if(mobile != null ){
+            mobile.style.display = "none";
         }
-        desktop_logo.onclick = function(){
-            window.location.href = "https://nitk.ac.in"
+
+        if(mobile_logo !=null){
+            mobile_logo.onclick = function(){
+                window.location.href = "https://nitk.ac.in"
+            } 
+            mobile_logo.style.display = "none";
         }
-        mobile.style.display = "none";
-        mobile_logo.style.display = "none";
+
+        if(desktop_logo != null){
+            desktop_logo.onclick = function(){
+                window.location.href = "https://nitk.ac.in"
+            }
+        }
 
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-            mobile.style.display = "block";
-            desktop.style.display = "none";
-            mobile.style.fontSize = ""
+            
+            if(mobile != null){
+                mobile.style.display = "block";
+                mobile.style.fontSize = ""
+            }
 
-            mobile_logo.style.display = "block";
-            desktop_logo.style.display = "none";
+            if(desktop != null){
+                desktop.style.display = "none";
+            }
 
-            var about_sections = [...document.getElementById('about').getElementsByClassName('row align-items-center')];
-            about_sections.map((section) => {
-                section.style.display = "flex";
-                section.style.justifyContent = "center";
+            if(mobile_logo != null){
+                mobile_logo.style.display = "block";
+            }
 
-                var h3_tag = section.querySelector('h3.wow.fadeInUp');
-                h3_tag.style.display = "flex";
-                h3_tag.style.justifyContent = "center";
+            if(desktop_logo != null){
+                desktop_logo.style.display = "none";
+            }
 
-                var content = section.querySelector('p.wow.fadeInUp');
-                if(content != null) {
-                    content.style.textAlign = "center";
-                }
-            });
+            var about = document.getElementById('about');
+            if(about != null){
+                var about_sections = [...about.getElementsByClassName('row align-items-center')];
+                about_sections.map((section) => {
+                    section.style.display = "flex";
+                    section.style.justifyContent = "center";
+
+                    var h3_tag = section.querySelector('h3.wow.fadeInUp');
+                    if(h3_tag != null){
+                        h3_tag.style.display = "flex";
+                        h3_tag.style.justifyContent = "center";
+                    }
+                    var content = section.querySelector('p.wow.fadeInUp');
+                    if(content != null) {
+                        content.style.textAlign = "center";
+                    }
+                });
+
+            }
         }
         document.addEventListener('DOMContentLoaded', function () {
             let devfolioOptions = {
