@@ -257,7 +257,7 @@ let student_info = [
         "email": "mehnaz138@gmail.com",
         "name": "Mehnaz Yunus",
         "image_path": "/students/IMG_20191124_145951_4-Mehnaz-Yunus.jpg",
-        "linkedin": "https://www.linkedin.com/in/namrata-ladda-255593153",
+        "linkedin": "https://www.linkedin.com/in/mehnaz-yunus/",
         "uploadImage": "https://drive.google.com/open?id=1IoC5x6fixzXBziL2Mo03bWTBW_nVNOkB"
     },
     {
@@ -271,7 +271,7 @@ let student_info = [
     {
         "timestamp": "2020-01-01T14:06:37.750Z",
         "email": "vybhavpai1999.vp@gmail.com",
-        "name": "Vybhav pai",
+        "name": "Vybhav Pai",
         "linkedin": "https://www.linkedin.com/in/vybhav-pai-a20331178",
         "image_path": "/students/hackverse - Vybhav Pai.jpg",
         "uploadImage": "https://drive.google.com/open?id=1ptbJurzJ-l8DSQf4zVBiYLof-w3tVuCz"
@@ -279,7 +279,7 @@ let student_info = [
     {
         "timestamp": "2020-01-01T16:42:24.707Z",
         "email": "gkramyashree@gmail.com",
-        "name": "RAMYASHREE G K",
+        "name": "Ramyashree G K",
         "image_path": "/students/IMG_20200101_220437 - GK RAMYA SHREE.jpg",
         "linkedin": "https://www.linkedin.com/in/ramyashree-g-k-0002b616b",
         "uploadImage": "https://drive.google.com/open?id=10jNEq82aWq8jKfOoBxJ-NOQrhTDVg3Hc"
