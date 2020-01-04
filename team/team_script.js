@@ -299,6 +299,14 @@ let student_info = [
         "image_path": "/students/IMG_20180529_142057_542x500 - Madhumitha Nara.jpg",
         "linkedin": "https://www.linkedin.com/in/madhumitha-nara/",
         "uploadImage": "https://drive.google.com/open?id=130fM2DWBeQ-0f_g-VSkZ9oVqM99ojUPX"
+    },
+    {
+        "timestamp": "1/4/2020 23:51:03",
+        "email": "shahmishal1998@gmail.com",
+        "name": "Mishal Shah",
+        "linkedin": "https://www.linkedin.com/in/mishal23",
+        "uploadImage": "https://drive.google.com/open?id=1BAMrc98s0hsMROiFoGTJRosv8iXcTVaW",
+        "image_path": "/students/Mishal - HackVerse NITK.jpg"
     }
 
 ]
