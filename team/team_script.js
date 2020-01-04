@@ -240,7 +240,7 @@ let student_info = [
         "timestamp": "2019-12-31T18:14:34.198Z",
         "email": "shumbul.181co152@nitk.edu.in",
         "name": "Shumbul Arifa",
-        "image_path": "/students/New Doc 2018-07-21_14 - Shumbul Arifa..jpg",
+        "image_path": "/students/ShumbulArifa.jpg",
         "linkedin": "https://www.linkedin.com/in/shumbul-arifa-420511143/",
         "uploadImage": "https://drive.google.com/open?id=18iYvly_i2AS1H-mwVMRcuqtRN44DCLdi"
     },
@@ -249,6 +249,14 @@ let student_info = [
         "email": "namrataladda@gmail.com",
         "name": "Namrata Ladda",
         "image_path": "/students/IMG_20191016_190625 - Namrata Ladda.jpg",
+        "linkedin": "https://www.linkedin.com/in/namrata-ladda-255593153",
+        "uploadImage": "https://drive.google.com/open?id=1IoC5x6fixzXBziL2Mo03bWTBW_nVNOkB"
+    },
+    {
+        "timestamp": "2020-01-01T02:43:39.732Z",
+        "email": "mehnaz138@gmail.com",
+        "name": "Mehnaz Yunus",
+        "image_path": "/students/IMG_20191124_145951_4-Mehnaz-Yunus.jpg",
         "linkedin": "https://www.linkedin.com/in/namrata-ladda-255593153",
         "uploadImage": "https://drive.google.com/open?id=1IoC5x6fixzXBziL2Mo03bWTBW_nVNOkB"
     },
@@ -283,14 +291,6 @@ let student_info = [
         "image_path": "/students/IMG-20200101-WA0005 - Sudeepthi Nallareddy.jpg",
         "linkedin": "https://www.linkedin.com/in/sudeepthi-nallareddy-4b3a83192",
         "uploadImage": "https://drive.google.com/open?id=1DLWDee5UwUsPoClcJwV9jzQRMjpLgOrS"
-    },
-    {
-        "timestamp": "2020-01-01T18:50:22.406Z",
-        "email": "shumbul.181co152@nitk.edu.in",
-        "name": "Shumbul Arifa",
-        "image_path": "/students/New Doc 2018-07-21_14 - Shumbul Arifa..jpg",
-        "linkedin": "https://www.linkedin.com/in/shumbul-arifa-420511143/",
-        "uploadImage": "https://drive.google.com/open?id=1-j2Lvii2yzpr3aatsDGcoob3wRpYi5mV"
     },
     {
         "timestamp": "2020-01-03T17:49:51.311Z",
