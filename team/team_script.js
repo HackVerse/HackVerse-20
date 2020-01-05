@@ -2,86 +2,93 @@ var img_path = "/img/bg-img/4.jpg"
 var link = "https://google.com"
 var name = "FirstName LastName"
 
-let cp_info = [
+let p_info = [
     {
         name :  'Dr.K.Balaveera Reddy',
-        image_path : '/chief_patrons/chairman.jpg',
+        image_path : '/patrons/chairman.jpg',
         email : '#',
         linkedin : '#',
         designation : 'Chairman BOG'
     }, 
     {
         name :  'Prof. Karanam Umamaheshwar Rao',
-        image_path : '/chief_patrons/Director.jpg',
+        image_path : '/patrons/Director.jpg',
         email : 'director@nitk.ac.in',
         linkedin : 'https://www.linkedin.com/in/k-umamaheshwar-rao-623a4373',
         designation : 'Director'
     }
 ]
 
-let patron_info = [
+let adv_info = [
     {
         name :  'Prof. Ananthanarayana V.S.',
-        image_path : '/patrons/anvs.jpg',
+        image_path : '/adv-com/anvs.jpg',
         email : 'dydirector@nitk.edu.in',
         linkedin : '#',
         designation : 'Deputy Director'
     },
     {
         name :  'Prof. A. Nityananda Shetty',
-        image_path : '/patrons/ANS.jpg',
+        image_path : '/adv-com/ANS.jpg',
         email : 'deanacademic@nitk.edu.in',
         linkedin : '#',
         designation : 'Dean Academic'
     },
     {
         name :  'Prof. K. Panduranga Vittal',
-        image_path : '/patrons/kpv1.jpg',
+        image_path : '/adv-com/kpv1.jpg',
         email : 'deanaair@nitk.edu.in',
         linkedin : 'https://in.linkedin.com/pub/dr-panduranga-vittal-k/19/541/43a',
         designation : 'Dean Alumni Affairs and Institutional Relations'
     },
     {
         name :  'Prof. Aloysius Henry Sequeira',
-        image_path : '/patrons/ahs.jpg',
+        image_path : '/adv-com/ahs.jpg',
         email : 'ahs@nitk.ac.in',
         linkedin : '#',
         designation : 'Dean Faculty Welfare'
     },
     {
         name :  'Prof. Subhash C. Yaragal',
-        image_path : '/patrons/subhas.jpg',
+        image_path : '/adv-com/subhas.jpg',
         email : 'dean_pd@nitk.edu.in',
         linkedin : '#',
         designation : 'Dean Planning & Development'
     },
     {
         name :  'Prof. U. Shripathi Acharya',
-        image_path : '/patrons/sripathi.png',
+        image_path : '/adv-com/sripathi.png',
         email : 'dean.rc@nitk.edu.in',
         linkedin : '#',
         designation : 'Dean Research & Consultancy'
     },
     {
         name :  'Prof. Jagannath Nayak',
-        image_path : '/patrons/jagannath.jpg',
+        image_path : '/adv-com/jagannath.jpg',
         email : 'jagan@nitk.ac.in',
         linkedin : '#',
         designation : 'Dean Students Welfare'
     },
     {
         name :  'Prof. Ashvini Chaturvedi',
-        image_path : '/patrons/ashv.png',
+        image_path : '/adv-com/ashv.png',
         email : 'ashvini@nitk.ac.in',
         linkedin : '#',
         designation : 'Associate Dean'
     },
     {
         name :  'Prof. Vidya Shetty K',
-        image_path : '/patrons/vidyashetty.jpg',
+        image_path : '/adv-com/vidyashetty.jpg',
         email : 'vidyaks95@nitk.ac.in',
         linkedin : '#',
         designation : 'Associate Dean'
+    },
+    {
+        name: "Prof. S. M. Murigendrappa",
+        image_path: "/adv-com/S M Murigendrappa-05.JPG",
+        email: "smm@nitk.ac.in",
+        linkedin: "#",
+        designation: "Professor"
     }
 ]
 
@@ -351,11 +358,11 @@ function compare(a, b) {
   return 0;
 }
 
-var cp_div = document.getElementById('cp').getElementsByClassName('row')[0]
-insert_in_div(cp_div,cp_info)
+var p_div = document.getElementById('p').getElementsByClassName('row')[0]
+insert_in_div(p_div,p_info)
 
-var patron_div = document.getElementById('p').getElementsByClassName('row')[0]
-insert_in_div(patron_div,patron_info)
+var adv_div = document.getElementById('adv').getElementsByClassName('row')[0]
+insert_in_div(adv_div,adv_info)
 
 var fac_div = document.getElementById('facad').getElementsByClassName('row')[0]
 insert_in_div(fac_div,fac_info) 

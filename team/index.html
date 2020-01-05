@@ -49,8 +49,8 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul class="ml-auto" id="nav">
-                                    <li><a href="#cp">Chief Patrons</a></li>
                                     <li><a href="#p">Patrons</a></li>
+                                    <li><a href="#adv">Advisory Comitee</a></li>
                                     <li><a href="#facad">Faculty Advisors</a></li>
                                     <li><a href="#students"> Student Team</a></li>
                                     <li><a href="#">Links</a>
@@ -98,14 +98,14 @@
 
     <!-- Our Speakings Area Start -->
     <section class="our-speaker-area section-padding-100">
-        <div id="cp" class="container">
-            <h1 class="page-title" style="text-align: center;padding: 10%;">Chief Patrons</h1>
+        <div id="p" class="container">
+            <h1 class="page-title" style="text-align: center;padding: 10%;">Patrons</h1>
             <div class="row">
             </div>
         </div>
 
-        <div id="p" class="container">
-            <h1 class="page-title" style="text-align: center;padding: 10%;">Patrons</h1>
+        <div id="adv" class="container">
+            <h1 class="page-title" style="text-align: center;padding: 10%;">Advisory Commitee</h1>
             <div class="row">
             </div>
         </div>
@@ -214,6 +214,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <div class="col-12 col-md-6">
                         <div class="footer-menu">
                             <ul class="nav">
+                                <li><a target="_blank" rel="noopener noreferrer" href="/docs/HackVerse Terms&Conditions.pdf"><i class="zmdi zmdi-circle"></i>Terms & Conditions</a></li>
                                 <li><a target="_blank" rel="noopener noreferrer" href="https://devfolio.co/code-of-conduct"><i class="zmdi zmdi-circle"></i> Code of Conduct</a></li>
                                 <!-- <li><a href="#"><i class="zmdi zmdi-circle"></i> Privacy Policy</a></li> -->
                             </ul>
@@ -241,8 +242,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
         mobile_logo.style.display = "none";
 
-        var cp_div = document.getElementById('cp');
         var p_div = document.getElementById('p');
+        var adv_div = document.getElementById('adv');
         var facad_div = document.getElementById('facad');
         var students_div = document.getElementById('students');
 
@@ -250,8 +251,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             mobile_logo.style.display = "block";
             desktop_logo.style.display = "none";
 
-            cp_div.style.width = "70%"
             p_div.style.width = "70%"
+            adv_div.style.width = "70%"
             facad_div.style.width = "70%"
             students_div.style.width = "70%"
         }
