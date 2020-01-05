@@ -204,7 +204,7 @@ student_info[1] = [
         "timestamp": "2019-12-31T10:17:22.256Z",
         "email": "siddhrams@gmail.com",
         "name": "Siddharth Ramesh",
-        "image_path": "/students/IMG_20191027_195419_657 - SIDDHARTH RAMESH.jpg",
+        "image_path": "/students/IMG_20191027_195419_657 - SIDDHARTH RAMESH..jpg",
         "linkedin": "https://www.linkedin.com/in/siddharth-ramesh-730503173",
         "uploadImage": "https://drive.google.com/open?id=1qFm7mg2HnqJwmLbnUjczbMdNXhq1fOWQ"
     },
@@ -244,7 +244,7 @@ student_info[1] = [
         "timestamp": "2019-12-31T16:02:29.892Z",
         "email": "sabareshreyash@gmail.com",
         "name": "Shreyash Sabare",
-        "image_path": "/students/Screenshot_20191228-204657 - Shreyash Sabare.jpg",
+        "image_path": "/students/Screenshot_20191228-204657 - Shreyash Sabare..jpg",
         "linkedin": "https://www.linkedin.com/in/shreyash-sabare-91a960166",
         "uploadImage": "https://drive.google.com/open?id=1oUfk4TwB3d4XQA-A5NRE1F8i01MTl5f9"
     },
@@ -253,7 +253,7 @@ student_info[1] = [
         "email": "anishpatil.171it109@nitk.edu.in",
         "name": "Anish Patil",
         "linkedin": "https://www.linkedin.com/in/patil-anish",
-        "image_path": "/students/20191231_214049 - Anish Patil.jpg",
+        "image_path": "/students/20191231_214049 - Anish Patil..jpg",
         "uploadImage": "https://drive.google.com/open?id=1EnA_EozVNPYVvIHArLkDWUxo6ZiUcmC2"
     },
     {
