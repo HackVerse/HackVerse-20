@@ -88,7 +88,7 @@ let adv_info = [
         image_path: "/adv-com/S M Murigendrappa-05.JPG",
         email: "smm@nitk.ac.in",
         linkedin: "#",
-        designation: "Chairman, Diamond jubilee Committee"
+        designation: "Chairman, Diamond jubilee Core Committee"
     }
 ]
 
@@ -200,38 +200,6 @@ student_info[0] = [
 
 student_info[1] = [
     {
-        "timestamp": "2019-12-31T10:10:41.079Z",
-        "email": "dtushar279@gmail.com",
-        "name": "Tushar Dubey",
-        "linkedin": "https://www.linkedin.com/in/tushar-dubey-24543114a/",
-        "image_path": "/students/IMG_2545 - Tushar Dubey.JPG",
-        "uploadImage": "https://drive.google.com/open?id=1SNzpNe4l_i7X5XWei9n8yA0DyzKDTrQd"
-    },
-    {
-        "timestamp": "2019-12-31T10:17:22.256Z",
-        "email": "siddhrams@gmail.com",
-        "name": "Siddharth Ramesh",
-        "image_path": "/students/IMG_20191027_195419_657 - SIDDHARTH RAMESH..jpg",
-        "linkedin": "https://www.linkedin.com/in/siddharth-ramesh-730503173",
-        "uploadImage": "https://drive.google.com/open?id=1qFm7mg2HnqJwmLbnUjczbMdNXhq1fOWQ"
-    },
-    {
-        "timestamp": "2019-12-31T12:05:59.942Z",
-        "email": "vaibhavsahai.181cv151@nitk.edu.in",
-        "name": "Vaibhav Sahai",
-        "linkedin": "https://www.linkedin.com/in/vaibhav-sahai-01567b191",
-        "image_path": "/students/IMG_20190530_110056 - Vaibhav Sahai.jpg",
-        "uploadImage": "https://drive.google.com/open?id=1PWm6OMIBStIULJc9BGtMpicFWcSjRrsj"
-    },
-    {
-        "timestamp": "2019-12-31T13:52:30.131Z",
-        "email": "feyazabubaker@gmail.com",
-        "name": "Feyaz Baker",
-        "linkedin": "https://www.linkedin.com/in/feyaz-baker-520086175/",
-        "image_path": "/students/69637394_2507244952838478_8668472265190408192_n - Feyaz Baker.jpg",
-        "uploadImage": "https://drive.google.com/open?id=1VPyV8skRmvi7WJBttZOOHdIdcKUK3Y52"
-    },
-    {
         "timestamp": "2019-12-31T14:04:05.182Z",
         "email": "adityasg3@gmail.com",
         "name": "Aditya Gourishetty",
@@ -272,14 +240,6 @@ student_info[1] = [
         "uploadImage": "https://drive.google.com/open?id=1wFilE7WgM8sipW6z37tx01Fz4BaY9CYf"
     },
     {
-        "timestamp": "2019-12-31T18:14:34.198Z",
-        "email": "shumbul.181co152@nitk.edu.in",
-        "name": "Shumbul Arifa",
-        "image_path": "/students/ShumbulArifa.jpg",
-        "linkedin": "https://www.linkedin.com/in/shumbul-arifa-420511143/",
-        "uploadImage": "https://drive.google.com/open?id=18iYvly_i2AS1H-mwVMRcuqtRN44DCLdi"
-    },
-    {
         "timestamp": "2020-01-01T07:06:43.291Z",
         "email": "shubham050300@gmail.com",
         "name": "Shubham Agrawal",
@@ -296,12 +256,32 @@ student_info[1] = [
         "uploadImage": "https://drive.google.com/open?id=1ptbJurzJ-l8DSQf4zVBiYLof-w3tVuCz"
     },
     {
-        "timestamp": "2020-01-01T16:42:24.707Z",
-        "email": "gkramyashree@gmail.com",
-        "name": "Ramyashree G K",
-        "image_path": "/students/IMG_20200101_220437 - GK RAMYA SHREE.jpg",
-        "linkedin": "https://www.linkedin.com/in/ramyashree-g-k-0002b616b",
-        "uploadImage": "https://drive.google.com/open?id=10jNEq82aWq8jKfOoBxJ-NOQrhTDVg3Hc"
+        "timestamp": "2020-01-03T17:49:51.311Z",
+        "email": "madhumithanara.171it125@nitk.edu.in",
+        "name": "Madhumitha Nara",
+        "image_path": "/students/IMG_20180529_142057_542x500 - Madhumitha Nara.jpg",
+        "linkedin": "https://www.linkedin.com/in/madhumitha-nara/",
+        "uploadImage": "https://drive.google.com/open?id=130fM2DWBeQ-0f_g-VSkZ9oVqM99ojUPX"
+    }
+
+]
+
+student_info[2] = [
+    {
+        "timestamp": "2019-12-31T13:52:30.131Z",
+        "email": "feyazabubaker@gmail.com",
+        "name": "Feyaz Baker",
+        "linkedin": "https://www.linkedin.com/in/feyaz-baker-520086175/",
+        "image_path": "/students/69637394_2507244952838478_8668472265190408192_n - Feyaz Baker.jpg",
+        "uploadImage": "https://drive.google.com/open?id=1VPyV8skRmvi7WJBttZOOHdIdcKUK3Y52"
+    },
+    {
+        "timestamp": "2019-12-31T12:05:59.942Z",
+        "email": "vaibhavsahai.181cv151@nitk.edu.in",
+        "name": "Vaibhav Sahai",
+        "linkedin": "https://www.linkedin.com/in/vaibhav-sahai-01567b191",
+        "image_path": "/students/IMG_20190530_110056 - Vaibhav Sahai.jpg",
+        "uploadImage": "https://drive.google.com/open?id=1PWm6OMIBStIULJc9BGtMpicFWcSjRrsj"
     },
     {
         "timestamp": "2020-01-01T17:10:19.988Z",
@@ -312,15 +292,15 @@ student_info[1] = [
         "uploadImage": "https://drive.google.com/open?id=1DLWDee5UwUsPoClcJwV9jzQRMjpLgOrS"
     },
     {
-        "timestamp": "2020-01-03T17:49:51.311Z",
-        "email": "madhumithanara.171it125@nitk.edu.in",
-        "name": "Madhumitha Nara",
-        "image_path": "/students/IMG_20180529_142057_542x500 - Madhumitha Nara.jpg",
-        "linkedin": "https://www.linkedin.com/in/madhumitha-nara/",
-        "uploadImage": "https://drive.google.com/open?id=130fM2DWBeQ-0f_g-VSkZ9oVqM99ojUPX"
-    }
-
+        "timestamp": "2019-12-31T18:14:34.198Z",
+        "email": "shumbul.181co152@nitk.edu.in",
+        "name": "Shumbul Arifa",
+        "image_path": "/students/ShumbulArifa.jpg",
+        "linkedin": "https://www.linkedin.com/in/shumbul-arifa-420511143/",
+        "uploadImage": "https://drive.google.com/open?id=18iYvly_i2AS1H-mwVMRcuqtRN44DCLdi"
+    },
 ]
+
 function insert_in_div(insert_div,persons){
     persons.forEach((person)=> {
         if(person.designation===undefined)person.designation = ''
@@ -371,6 +351,8 @@ var student_div = document.getElementById('students').getElementsByClassName('ro
 
 student_info[0].sort(compare)
 student_info[1].sort(compare)
+student_info[2].sort(compare)
 
 insert_in_div(student_div,student_info[0]) 
 insert_in_div(student_div,student_info[1]) 
+insert_in_div(student_div,student_info[2]) 
