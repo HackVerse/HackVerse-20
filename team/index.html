@@ -241,9 +241,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
         mobile_logo.style.display = "none";
 
+        var cp_div = document.getElementById('cp');
+        var p_div = document.getElementById('p');
+        var facad_div = document.getElementById('facad');
+        var students_div = document.getElementById('students');
+
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
             mobile_logo.style.display = "block";
             desktop_logo.style.display = "none";
+
+            cp_div.style.width = "70%"
+            p_div.style.width = "70%"
+            facad_div.style.width = "70%"
+            students_div.style.width = "70%"
         }
     </script>
     <script src="/team/team_script.js"></script>
