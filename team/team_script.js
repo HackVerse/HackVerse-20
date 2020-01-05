@@ -109,7 +109,8 @@ let fac_info = [
     }
 ]
 
-let student_info = [
+let student_info = []
+student_info[0] = [
     {
         "timestamp": "2019-12-31T10:01:25.107Z",
         "email": "akash9721l@gmail.com",
@@ -118,6 +119,79 @@ let student_info = [
         "linkedin": "https://www.linkedin.com/in/akash-l-285787126/",
         "uploadImage": "https://drive.google.com/open?id=1fkyzQNC0w36yg1ZjfM4_y-bez6c1N6Vy"
     },
+    {
+        "timestamp": "2019-12-31T11:47:28.648Z",
+        "email": "vachhanihpavan@gmail.com",
+        "name": "Pavan Vachhani",
+        "image_path": "/students/DSC_00462 - Pavan Vachhani.jpg",
+        "linkedin": "https://www.linkedin.com/in/vachhanihpavan",
+        "uploadImage": "https://drive.google.com/open?id=1xoJVeylmGXiD3QWepJygdZfr83kygYd4"
+    },
+    {
+        "timestamp": "2019-12-31T14:42:01.307Z",
+        "email": "adarshmalapaka98@gmail.com",
+        "name": "Adarsh Malapaka",
+        "linkedin": "https://www.linkedin.com/in/adarsh-malapaka-653455152",
+        "image_path": "/students/7ACF7F66-054D-42A2-9A79-2319FD278299 - IE NITK.jpeg",
+        "uploadImage": "https://drive.google.com/open?id=1v_OQwnyXICsgPL1Mm3bjT4RhXg-C3VIJ"
+    },
+    {
+        "timestamp": "2019-12-31T16:25:14.991Z",
+        "email": "saisushil10@gmail.com",
+        "name": "Sai Sushil",
+        "image_path": "/students/Screenshot_20191021_153856 - Sai Sushil.jpg",
+        "linkedin": "https://www.linkedin.com/in/sai-sushil-10",
+        "uploadImage": "https://drive.google.com/open?id=1mzk0uB8P8Ml9QVBZPw-EyY8Bk9tk20QZ"
+    },
+    {
+        "timestamp": "2019-12-31T16:55:21.274Z",
+        "email": "shreyas.shankar920@gmail.com",
+        "name": "Shreyas Shankar",
+        "image_path": "/students/shreyasshankar - Shreyas Shankar.jpg",
+        "linkedin": "https://www.linkedin.com/in/shreyas-shankar-474731140/",
+        "uploadImage": "https://drive.google.com/open?id=1Or0Jr_rbHYfa_yiohij2YOQUWujWq2TW"
+    },
+    {
+        "timestamp": "2019-12-31T18:08:47.055Z",
+        "email": "shravanshenoy1998@hotmail.com",
+        "name": "Shravan S",
+        "image_path": "/students/shravan1 - Shravan Shenoy.png",
+        "linkedin": "https://in.linkedin.com/in/shravan-shenoy-84295713a",
+        "uploadImage": "https://drive.google.com/open?id=1qX04DIvuUztPHPKtK9r5ckIuwRyURv04"
+    },
+    {
+        "email": "shreyasseshadri@gmail.com",
+        "name": "Shreyas Seshadri",
+        "image_path": "/students/shreyas-seshadri.jpg",
+        "linkedin":  "https://www.linkedin.com/in/shreyas-seshadri-8b278a130/"
+    },
+    {
+        "timestamp": "2020-01-01T02:43:39.732Z",
+        "email": "namrataladda@gmail.com",
+        "name": "Namrata Ladda",
+        "image_path": "/students/IMG_20191016_190625 - Namrata Ladda.jpg",
+        "linkedin": "https://www.linkedin.com/in/namrata-ladda-255593153",
+        "uploadImage": "https://drive.google.com/open?id=1IoC5x6fixzXBziL2Mo03bWTBW_nVNOkB"
+    },
+    {
+        "timestamp": "2020-01-01T02:43:39.732Z",
+        "email": "mehnaz138@gmail.com",
+        "name": "Mehnaz Yunus",
+        "image_path": "/students/IMG_20191124_145951_4-Mehnaz-Yunus.jpg",
+        "linkedin": "https://www.linkedin.com/in/mehnaz-yunus/",
+        "uploadImage": "https://drive.google.com/open?id=1IoC5x6fixzXBziL2Mo03bWTBW_nVNOkB"
+    },
+    {
+        "timestamp": "1/4/2020 23:51:03",
+        "email": "shahmishal1998@gmail.com",
+        "name": "Mishal Shah",
+        "linkedin": "https://www.linkedin.com/in/mishal23",
+        "uploadImage": "https://drive.google.com/open?id=1BAMrc98s0hsMROiFoGTJRosv8iXcTVaW",
+        "image_path": "/students/Mishal - HackVerse NITK.jpg"
+    }
+]
+
+student_info[1] = [
     {
         "timestamp": "2019-12-31T10:10:41.079Z",
         "email": "dtushar279@gmail.com",
@@ -130,17 +204,9 @@ let student_info = [
         "timestamp": "2019-12-31T10:17:22.256Z",
         "email": "siddhrams@gmail.com",
         "name": "Siddharth Ramesh",
-        "image_path": "/students/IMG_20191027_195419_657 - SIDDHARTH RAMESH..jpg",
+        "image_path": "/students/IMG_20191027_195419_657 - SIDDHARTH RAMESH.jpg",
         "linkedin": "https://www.linkedin.com/in/siddharth-ramesh-730503173",
         "uploadImage": "https://drive.google.com/open?id=1qFm7mg2HnqJwmLbnUjczbMdNXhq1fOWQ"
-    },
-    {
-        "timestamp": "2019-12-31T11:47:28.648Z",
-        "email": "vachhanihpavan@gmail.com",
-        "name": "Pavan Vachhani",
-        "image_path": "/students/DSC_00462 - Pavan Vachhani.jpg",
-        "linkedin": "https://www.linkedin.com/in/vachhanihpavan",
-        "uploadImage": "https://drive.google.com/open?id=1xoJVeylmGXiD3QWepJygdZfr83kygYd4"
     },
     {
         "timestamp": "2019-12-31T12:05:59.942Z",
@@ -175,18 +241,10 @@ let student_info = [
         "uploadImage": "https://drive.google.com/open?id=1bLCtkfm4WVSVBP9D6t0A7XkrGvpH8Zeq"
     },
     {
-        "timestamp": "2019-12-31T14:42:01.307Z",
-        "email": "adarshmalapaka98@gmail.com",
-        "name": "Adarsh Malapaka",
-        "linkedin": "https://www.linkedin.com/in/adarsh-malapaka-653455152",
-        "image_path": "/students/7ACF7F66-054D-42A2-9A79-2319FD278299 - IE NITK.jpeg",
-        "uploadImage": "https://drive.google.com/open?id=1v_OQwnyXICsgPL1Mm3bjT4RhXg-C3VIJ"
-    },
-    {
         "timestamp": "2019-12-31T16:02:29.892Z",
         "email": "sabareshreyash@gmail.com",
         "name": "Shreyash Sabare",
-        "image_path": "/students/Screenshot_20191228-204657 - Shreyash Sabare..jpg",
+        "image_path": "/students/Screenshot_20191228-204657 - Shreyash Sabare.jpg",
         "linkedin": "https://www.linkedin.com/in/shreyash-sabare-91a960166",
         "uploadImage": "https://drive.google.com/open?id=1oUfk4TwB3d4XQA-A5NRE1F8i01MTl5f9"
     },
@@ -195,7 +253,7 @@ let student_info = [
         "email": "anishpatil.171it109@nitk.edu.in",
         "name": "Anish Patil",
         "linkedin": "https://www.linkedin.com/in/patil-anish",
-        "image_path": "/students/20191231_214049 - Anish Patil..jpg",
+        "image_path": "/students/20191231_214049 - Anish Patil.jpg",
         "uploadImage": "https://drive.google.com/open?id=1EnA_EozVNPYVvIHArLkDWUxo6ZiUcmC2"
     },
     {
@@ -207,58 +265,12 @@ let student_info = [
         "uploadImage": "https://drive.google.com/open?id=1wFilE7WgM8sipW6z37tx01Fz4BaY9CYf"
     },
     {
-        "timestamp": "2019-12-31T16:25:14.991Z",
-        "email": "saisushil10@gmail.com",
-        "name": "Sai Sushil",
-        "image_path": "/students/Screenshot_20191021_153856 - Sai Sushil.jpg",
-        "linkedin": "https://www.linkedin.com/in/sai-sushil-10",
-        "uploadImage": "https://drive.google.com/open?id=1mzk0uB8P8Ml9QVBZPw-EyY8Bk9tk20QZ"
-    },
-    {
-        "timestamp": "2019-12-31T16:55:21.274Z",
-        "email": "shreyas.shankar920@gmail.com",
-        "name": "Shreyas Shankar",
-        "image_path": "/students/shreyasshankar - Shreyas Shankar.jpg",
-        "linkedin": "https://www.linkedin.com/in/shreyas-shankar-474731140/",
-        "uploadImage": "https://drive.google.com/open?id=1Or0Jr_rbHYfa_yiohij2YOQUWujWq2TW"
-    },
-    {
-        "timestamp": "2019-12-31T18:08:47.055Z",
-        "email": "shravanshenoy1998@hotmail.com",
-        "name": "Shravan S",
-        "image_path": "/students/shravan1 - Shravan Shenoy.png",
-        "linkedin": "https://in.linkedin.com/in/shravan-shenoy-84295713a",
-        "uploadImage": "https://drive.google.com/open?id=1qX04DIvuUztPHPKtK9r5ckIuwRyURv04"
-    },
-    {
-        "email": "shreyasseshadri@gmail.com",
-        "name": "Shreyas Seshadri",
-        "image_path": "/students/shreyas-seshadri.jpg",
-        "linkedin":  "https://www.linkedin.com/in/shreyas-seshadri-8b278a130/"
-    },
-    {
         "timestamp": "2019-12-31T18:14:34.198Z",
         "email": "shumbul.181co152@nitk.edu.in",
         "name": "Shumbul Arifa",
         "image_path": "/students/ShumbulArifa.jpg",
         "linkedin": "https://www.linkedin.com/in/shumbul-arifa-420511143/",
         "uploadImage": "https://drive.google.com/open?id=18iYvly_i2AS1H-mwVMRcuqtRN44DCLdi"
-    },
-    {
-        "timestamp": "2020-01-01T02:43:39.732Z",
-        "email": "namrataladda@gmail.com",
-        "name": "Namrata Ladda",
-        "image_path": "/students/IMG_20191016_190625 - Namrata Ladda.jpg",
-        "linkedin": "https://www.linkedin.com/in/namrata-ladda-255593153",
-        "uploadImage": "https://drive.google.com/open?id=1IoC5x6fixzXBziL2Mo03bWTBW_nVNOkB"
-    },
-    {
-        "timestamp": "2020-01-01T02:43:39.732Z",
-        "email": "mehnaz138@gmail.com",
-        "name": "Mehnaz Yunus",
-        "image_path": "/students/IMG_20191124_145951_4-Mehnaz-Yunus.jpg",
-        "linkedin": "https://www.linkedin.com/in/mehnaz-yunus/",
-        "uploadImage": "https://drive.google.com/open?id=1IoC5x6fixzXBziL2Mo03bWTBW_nVNOkB"
     },
     {
         "timestamp": "2020-01-01T07:06:43.291Z",
@@ -299,14 +311,6 @@ let student_info = [
         "image_path": "/students/IMG_20180529_142057_542x500 - Madhumitha Nara.jpg",
         "linkedin": "https://www.linkedin.com/in/madhumitha-nara/",
         "uploadImage": "https://drive.google.com/open?id=130fM2DWBeQ-0f_g-VSkZ9oVqM99ojUPX"
-    },
-    {
-        "timestamp": "1/4/2020 23:51:03",
-        "email": "shahmishal1998@gmail.com",
-        "name": "Mishal Shah",
-        "linkedin": "https://www.linkedin.com/in/mishal23",
-        "uploadImage": "https://drive.google.com/open?id=1BAMrc98s0hsMROiFoGTJRosv8iXcTVaW",
-        "image_path": "/students/Mishal - HackVerse NITK.jpg"
     }
 
 ]
@@ -337,6 +341,16 @@ function insert_in_div(insert_div,persons){
     })
 }
 
+function compare(a, b) {
+  if (a.name < b.name){
+    return -1;
+  }
+  if (a.name > b.name){
+    return 1;
+  }
+  return 0;
+}
+
 var cp_div = document.getElementById('cp').getElementsByClassName('row')[0]
 insert_in_div(cp_div,cp_info)
 
@@ -347,4 +361,9 @@ var fac_div = document.getElementById('facad').getElementsByClassName('row')[0]
 insert_in_div(fac_div,fac_info) 
 
 var student_div = document.getElementById('students').getElementsByClassName('row')[0]
-insert_in_div(student_div,student_info) 
+
+student_info[0].sort(compare)
+student_info[1].sort(compare)
+
+insert_in_div(student_div,student_info[0]) 
+insert_in_div(student_div,student_info[1]) 
