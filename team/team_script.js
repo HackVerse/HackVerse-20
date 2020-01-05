@@ -88,7 +88,7 @@ let adv_info = [
         image_path: "/adv-com/S M Murigendrappa-05.JPG",
         email: "smm@nitk.ac.in",
         linkedin: "#",
-        designation: "Professor"
+        designation: "Chairman, Diamond jubilee Committee"
     }
 ]
 
