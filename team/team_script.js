@@ -195,6 +195,18 @@ student_info[0] = [
         "linkedin": "https://www.linkedin.com/in/mishal23",
         "uploadImage": "https://drive.google.com/open?id=1BAMrc98s0hsMROiFoGTJRosv8iXcTVaW",
         "image_path": "/students/Mishal - HackVerse NITK.jpg"
+    },
+    {
+        "email": "bhatswathi1234@gmail.com",
+        "name": "Swathi Bhat",
+        "linkedin": "https://linkedin.com/in/swathibhat99/",
+        "image_path": "/students/IMG-20200101-WA0038 - Swathi Bhat.jpg"
+    },
+    {
+        "email": "govindsunilkumar.171ec217@nitk.edu.in",
+        "name": "Govind Sunilkumar",
+        "linkedin": "https://www.linkedin.com/in/govind-sunilkumar-71431b186/",
+        "image_path": "/students/WhatsApp Image 2020-01-05 at 22.19.10 - Govind Sunilkumar.jpeg"
     }
 ]
 
