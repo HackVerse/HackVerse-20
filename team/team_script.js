@@ -201,16 +201,16 @@ student_info[0] = [
         "name": "Swathi Bhat",
         "linkedin": "https://linkedin.com/in/swathibhat99/",
         "image_path": "/students/IMG-20200101-WA0038 - Swathi Bhat.jpg"
-    },
+    }
+]
+
+student_info[1] = [
     {
         "email": "govindsunilkumar.171ec217@nitk.edu.in",
         "name": "Govind Sunilkumar",
         "linkedin": "https://www.linkedin.com/in/govind-sunilkumar-71431b186/",
         "image_path": "/students/WhatsApp Image 2020-01-05 at 22.19.10 - Govind Sunilkumar.jpeg"
-    }
-]
-
-student_info[1] = [
+    },
     {
         "timestamp": "2019-12-31T14:04:05.182Z",
         "email": "adityasg3@gmail.com",
