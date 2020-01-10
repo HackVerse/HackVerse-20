@@ -956,6 +956,9 @@
                             <a target="_blank" rel="noopener noreferrer" href="https://www.fidelity.com/"><img src="/img/sponsors-img/fidelity.jpeg" alt="Fidelity"></a>
                         </div>
                         <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.linode.com/"><img src="/img/sponsors-img/linode-full-RGB-fc.jpg" alt="Linode"></a>
+                        </div>
+                        <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
                             <a target="_blank" rel="noopener noreferrer" href="https://www.digitalocean.com/"><img src="/img/sponsors-img/digital-ocean.png" alt="Digital Ocean"></a>
                         </div>
                         <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
@@ -1013,7 +1016,7 @@
                             <a target="_blank" rel="noopener noreferrer" href="https://progate.com/"><img style="padding-bottom: 10%;" src="/img/sponsors-img/progate.png" alt="Progate"></a>
                         </div>
                         <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-                            <a target="_blank" rel="noopener noreferrer" href=""><img style="padding-bottom: 10%;" src="/img/sponsors-img/av8.png" alt="AV8 Juice"></a>
+                            <a target="_blank" rel="noopener noreferrer" href=""><img style="padding-bottom: 10%;width:auto" src="/img/sponsors-img/av8.png" alt="AV8 Juice"></a>
                         </div>
                         <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
                             <a target="_blank" rel="noopener noreferrer" href="https://zubi.io/"><img style="width:30%;margin-left: 25%;" src="/img/sponsors-img/zubi.jpeg" alt="Zubi.io"></a>
@@ -1022,10 +1025,10 @@
                             <a target="_blank" rel="noopener noreferrer" href="https://rosenfeldmedia.com/"><img src="/img/sponsors-img/rosenfeld.png" alt="Zubi.io"></a>
                         </div>
                         <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-                            <a target="_blank" rel="noopener noreferrer" href="https://dev.to/"><img src="/img/sponsors-img/dev.png" alt="DEV"></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://dev.to/"><img style="width:auto;" src="/img/sponsors-img/dev.png" alt="DEV"></a>
                         </div>
                         <div class="single-sponsor wow fadeInUp" data-wow-delay="300ms">
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.stickeryou.com/"><img src="/img/sponsors-img/stickeryou.png" alt="StickerYou"></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.stickeryou.com/"><img style="width:auto;" src="/img/sponsors-img/stickeryou.png" alt="StickerYou"></a>
                         </div>
                     </div>
                     <div id="desktop">
@@ -1517,6 +1520,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         var mobile_logo = document.getElementById('logo-mob');        
         var desktop_logo = document.getElementById('logo-pc');
 
+        var sponsor_img = document.getElementsByClassName('single-sponsor wow fadeInUp')
+
         if(mobile != null ){
             mobile.style.display = "none";
         }
@@ -1536,6 +1541,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
             
+            if(sponsor_img !=null && sponsor_img[0] != null){
+                var sponsor_img = sponsor_img[0].getElementsByTagName('img')[0]
+                sponsor_img.style.width = "auto";
+            }
+
             if(mobile != null){
                 mobile.style.display = "block";
                 mobile.style.fontSize = ""
