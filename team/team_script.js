@@ -197,6 +197,14 @@ student_info[0] = [
         "image_path": "/students/Mishal - HackVerse NITK.jpg"
     },
     {
+        "timestamp": "1/4/2020 23:51:03",
+        "email": "sohampatil798@gmail.com",
+        "name": "Soham Patil",
+        "linkedin": "https://www.linkedin.com/in/soham-shashikant-patil-a63b64133/",
+        "uploadImage": "https://drive.google.com/open?id=1BAMrc98s0hsMROiFoGTJRosv8iXcTVaW",
+        "image_path": "/students/soham.jpeg"
+    },
+    {
         "email": "bhatswathi1234@gmail.com",
         "name": "Swathi Bhat",
         "linkedin": "https://linkedin.com/in/swathibhat99/",
