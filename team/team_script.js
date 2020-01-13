@@ -182,6 +182,14 @@ student_info[0] = [
     },
     {
         "timestamp": "2020-01-01T02:43:39.732Z",
+        "email": "keerthana.keetu.p@gmail.com",
+        "name": "Keerthana Polkampally",
+        "image_path": "/students/keerthana.jpg",
+        "linkedin": "https://www.linkedin.com/in/polkampally-keerthana-66973112b/",
+        "uploadImage": "https://drive.google.com/open?id=1IoC5x6fixzXBziL2Mo03bWTBW_nVNOkB"
+    },
+    {
+        "timestamp": "2020-01-01T02:43:39.732Z",
         "email": "mehnaz138@gmail.com",
         "name": "Mehnaz Yunus",
         "image_path": "/students/IMG_20191124_145951_4-Mehnaz-Yunus.jpg",
