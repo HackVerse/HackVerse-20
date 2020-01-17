@@ -94,16 +94,16 @@ let adv_info = [
 
 let fac_info = [
     {
-        name: 'Dr. Sowmya Kamath S.',
-        image_path : '/fac-ads/sk-image.jpg',
-        email: 'sowmyakamath@nitk.edu.in',
+        name: 'Dr. Anand Kumar M.',
+        image_path : '/fac-ads/anandkumar.png',
+        email: 'm_anandkumar.nitk.edu.in',
         linkedin: '#',
         designation: 'Assistant Professor'
     },
     {
-        name: 'Dr. Anand Kumar M.',
-        image_path : '/fac-ads/anandkumar.png',
-        email: 'm_anandkumar.nitk.edu.in',
+        name: 'Dr. Sowmya Kamath S.',
+        image_path : '/fac-ads/sk-image.jpg',
+        email: 'sowmyakamath@nitk.edu.in',
         linkedin: '#',
         designation: 'Assistant Professor'
     },
