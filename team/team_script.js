@@ -304,14 +304,6 @@ student_info[2] = [
         "uploadImage": "https://drive.google.com/open?id=1VPyV8skRmvi7WJBttZOOHdIdcKUK3Y52"
     },
     {
-        "timestamp": "2019-12-31T12:05:59.942Z",
-        "email": "vaibhavsahai.181cv151@nitk.edu.in",
-        "name": "Vaibhav Sahai",
-        "linkedin": "https://www.linkedin.com/in/vaibhav-sahai-01567b191",
-        "image_path": "/students/IMG_20190530_110056 - Vaibhav Sahai.jpg",
-        "uploadImage": "https://drive.google.com/open?id=1PWm6OMIBStIULJc9BGtMpicFWcSjRrsj"
-    },
-    {
         "timestamp": "2020-01-01T17:10:19.988Z",
         "email": "sudeepthinallareddy@gmail.com",
         "name": "Nalla Sudeepthi",
