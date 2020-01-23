@@ -306,10 +306,16 @@ student_info[1] = [{
         'timestamp': '2020/01/22 3:06:26 PM GMT+5:30',
         'email': 'nishantkumar.171ee230@nitk.edu.in',
         'name': 'Nishant Kumar',
-        'linkedin': 'https://www.blank.com',
+        'linkedin': '#',
         'image_path': '/students/Nishant Kumar.jpg',
         'uploadImage': 'https://drive.google.com/u/2/open?usp=forms_web&id=1UhHy-rDGPvmCWrGf717TGPCQUVWKPpc_'
-    }
+    },
+    {
+        'email': 'chaitany.pandiya@gmail.com',
+        'name': 'Chaitany Pandiya',
+        'linkedin': 'https://www.linkedin.com/in/chaitany-pandiya-6b2788147/',
+        'image_path': '/students/Chaitany.jpg',
+    },
 
 ]
 
