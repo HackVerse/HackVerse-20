@@ -295,30 +295,6 @@ student_info[1] = [{
         "uploadImage": "https://drive.google.com/open?id=130fM2DWBeQ-0f_g-VSkZ9oVqM99ojUPX"
     },
     {
-        'timestamp': '2020/01/22 1:35:17 AM GMT+5:30',
-        'email': 'prakritigoyal19@gmail.com',
-        'name': 'Prakriti Goyal',
-        'linkedin': 'https://www.linkedin.com/in/prakriti-goyal-595340192/',
-        'image_path': '/students/Prakriti Goyal1.jpg',
-        'uploadImage': 'https://drive.google.com/u/2/open?usp=forms_web&id=1UX7cvzG7i8ZaEp8K7DNVc3ct1SUvEvRS'
-    },
-    {
-        'timestamp': '2020/01/22 2:52:32 AM GMT+5:30',
-        'email': 'omanshumahawar.181co237@nitk.edu.in',
-        'name': 'Omanshu Mahawar ',
-        'linkedin': 'http://linkedin.com/in/omanshu-mahawar-7b6325192',
-        'image_path': '/students/Omanshu Mahawar.jpeg',
-        'uploadImage': 'https://drive.google.com/u/2/open?usp=forms_web&id=1-9ClDctox_E1KS_DDqPjac1FgL908qA9'
-    },
-    {
-        'timestamp': '2020/01/22 1:06:53 PM GMT+5:30',
-        'email': 'jahnavikancharla99@gmail.com',
-        'name': 'Jahnavi Kancharla ',
-        'linkedin': 'http://linkedin.com/in/jahnavi-kancharla-b68379191',
-        'image_path': '/students/Kancharla Jahnavi.jpeg',
-        'uploadImage': 'https://drive.google.com/u/2/open?usp=forms_web&id=1tNhIUyiKYDvWQVsaHkgnzDXucbKnshUt'
-    },
-    {
         'timestamp': '2020/01/22 2:28:34 PM GMT+5:30',
         'email': 'ratan.171ee234@nitk.edu.in',
         'name': 'Ratan Mamdekar',
@@ -362,6 +338,30 @@ student_info[2] = [{
         "linkedin": "https://www.linkedin.com/in/shumbul-arifa-420511143/",
         "uploadImage": "https://drive.google.com/open?id=18iYvly_i2AS1H-mwVMRcuqtRN44DCLdi"
     },
+    {
+        'timestamp': '2020/01/22 1:35:17 AM GMT+5:30',
+        'email': 'prakritigoyal19@gmail.com',
+        'name': 'Prakriti Goyal',
+        'linkedin': 'https://www.linkedin.com/in/prakriti-goyal-595340192/',
+        'image_path': '/students/Prakriti Goyal1.jpg',
+        'uploadImage': 'https://drive.google.com/u/2/open?usp=forms_web&id=1UX7cvzG7i8ZaEp8K7DNVc3ct1SUvEvRS'
+    },
+    {
+        'timestamp': '2020/01/22 2:52:32 AM GMT+5:30',
+        'email': 'omanshumahawar.181co237@nitk.edu.in',
+        'name': 'Omanshu Mahawar ',
+        'linkedin': 'http://linkedin.com/in/omanshu-mahawar-7b6325192',
+        'image_path': '/students/Omanshu Mahawar.jpeg',
+        'uploadImage': 'https://drive.google.com/u/2/open?usp=forms_web&id=1-9ClDctox_E1KS_DDqPjac1FgL908qA9'
+    },
+    {
+        'timestamp': '2020/01/22 1:06:53 PM GMT+5:30',
+        'email': 'jahnavikancharla99@gmail.com',
+        'name': 'Jahnavi Kancharla ',
+        'linkedin': 'http://linkedin.com/in/jahnavi-kancharla-b68379191',
+        'image_path': '/students/Kancharla Jahnavi.jpeg',
+        'uploadImage': 'https://drive.google.com/u/2/open?usp=forms_web&id=1tNhIUyiKYDvWQVsaHkgnzDXucbKnshUt'
+    }
 ]
 
 function insert_in_div(insert_div, persons) {
