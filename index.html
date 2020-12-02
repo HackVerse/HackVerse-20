@@ -40,7 +40,128 @@
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/gallaryStyle.css">
 
+    <style>
+        /* style for testimonial section start */
+        .testimonials-body {
+            position: relative;
+        }
+        .swiper-button-prev::before,
+        .swiper-button-next::before {
+            content: "";
+            display: none;
+        }
 
+        .swiper-button-next,
+        .swiper-button-prev {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background-color: #fff;
+            border: none;
+            box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+            margin: 0;
+            transition: transform .2s,box-shadow .2s;
+        }
+        .testimonial-next-prev {
+            position: absolute;
+            right: 50%;
+            transform: translateX(-50%);        
+            top: 110%;
+        }
+
+        .swiper-button-prev:focus,
+        .swiper-button-next:focus {
+            outline: none;
+        }
+
+        .swiper-button-next:hover,
+        .swiper-button-prev:hover {
+            transition: 0.2s;
+            transform: translateY(-5px);
+        }
+
+        .swiper-button-prev svg {
+            transform: rotate(180deg);
+        }
+        .swiper-button-prev svg ,
+        .swiper-button-next svg {
+            width: 25px;
+            color: #1abc9c;
+            flex: 0 0 auto;
+        }
+        .swiper-button-prev svg path,
+        .swiper-button-next svg path{
+            fill: #1abc9c !important;
+        }
+        #swiper1 {
+            height: auto !important;
+        }
+        .testimonial__card {
+            position: relative;
+            height: 320px !important;
+            background-color: #fff;
+            box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 10px rgba(50,50,93,0.1);
+            border-top: 4px solid #1abc9c;
+            border-radius: 4px;
+            margin: 10px;
+            margin-top: 50px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .testimonial__img {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 3px 5px 0 rgba(0,0,0,.4);
+            overflow: hidden;
+        }
+        .testimonial__img img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .testimonial__name {
+            padding: 50px 10px 10px 10px;
+        }
+
+        .testimonial__description {
+            overflow-y: auto;
+            margin: 10px 20px;
+            padding: 0 10px;
+            height: 170px;
+            text-align: left;
+        }
+        .testimonial__description::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .testimonial__description::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .testimonial__description::-webkit-scrollbar-thumb {
+            background: #dadada;
+            border-radius: 3px;
+        }
+        .testimonial__description::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+        .testimonial__description p {
+            font-size: 14px;
+        }
+        /* style for testimonial section start */
+    </style>
+    
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -67,6 +188,11 @@
             }
         }
     </script>
+    <!-- ***bootstrap and jquery***-->
+    <!-- jQuery 2.2.4 -->
+    <script src="/js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="/js/bootstrap.min.js"></script>
 </head>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -1525,6 +1651,193 @@
         </div>
     </section>
 
+    <section 
+        id="testimonials" 
+        style="background-color: white; padding-bottom: 150px;" 
+        class="section-padding-100"
+    >
+        <div class="container">
+            <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                <h4 style="color:navy">TESTIMONIALS</h4>
+            </div>
+            <div class="testimonials-body">
+                <!-- slider main container -->
+                <div id="swiper1" class="swiper-container"> 
+
+                    <!-- additional required wrapper -->
+                    <div class="swiper-wrapper">
+
+                        <!-- slides -->
+                        <div class="swiper-slide">
+                            <div class="testimonial__card">
+                                <div class="testimonial__img">
+                                    <img src="./img/img_1.jpg" alt="">
+                                </div>
+                                <h2 class="testimonial__name">Lorem ipsum 1</h2>
+                                <div class="testimonial__description" >
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit corrupti distinctio, 
+                                        recusandae architecto consequatur. Dolorum laboriosam tempora excepturi consequatur voluptatibus, 
+                                        odio repellendus? Alias repellat cum ipsum minima quasi commodi.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial__card">
+                                <div class="testimonial__img">
+                                    <img src="./img/img_2.jpg" alt="">
+                                </div>
+                                <h2 class="testimonial__name">Lorem ipsum 2</h2>
+                                <div class="testimonial__description" >
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa sapiente autem soluta ullam aliquam. 
+                                        Accusantium obcaecati, architecto fugit dolore hic dolorum facilis, accusamus numquam molestias natus pariatur, 
+                                        porro ratione quo perspiciatis voluptatem reiciendis inventore. Excepturi vero quam laboriosam ut et cumque? 
+                                        Vitae cumque ipsa magni minus molestias repellat, sapiente debitis, voluptate facilis, 
+                                        illum eveniet molestiae non obcaecati fuga ducimus quis inventore magnam sint quaerat repellendus et? 
+                                        Ut eum quo optio vitae perferendis, libero dolorem?    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial__card">
+                                <div class="testimonial__img">
+                                    <img src="./img/img_3.jpg" alt="">
+                                </div>
+                                <h2 class="testimonial__name">Lorem ipsum 3</h2>
+                                <div class="testimonial__description" >
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa sapiente autem soluta ullam aliquam. 
+                                        Accusantium obcaecati, architecto fugit dolore hic dolorum facilis, accusamus numquam molestias natus pariatur, 
+                                        porro ratione quo perspiciatis voluptatem reiciendis inventore. Excepturi vero quam laboriosam ut et cumque? 
+                                        Vitae cumque ipsa magni minus molestias repellat, sapiente debitis, voluptate facilis, 
+                                        illum eveniet molestiae non obcaecati fuga ducimus quis inventore magnam sint quaerat repellendus et? 
+                                        Ut eum quo optio vitae perferendis, libero dolorem?    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial__card">
+                                <div class="testimonial__img">
+                                    <img src="./img/img_4.jpg" alt="">
+                                </div>
+                                <h2 class="testimonial__name">Lorem ipsum 4</h2>
+                                <div class="testimonial__description" >
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa sapiente autem soluta ullam aliquam. 
+                                        Accusantium obcaecati, architecto fugit dolore hic dolorum facilis, accusamus numquam molestias natus pariatur, 
+                                        porro ratione quo perspiciatis voluptatem reiciendis inventore. Excepturi vero quam laboriosam ut et cumque? 
+                                        Vitae cumque ipsa magni minus molestias repellat, sapiente debitis, voluptate facilis, 
+                                        illum eveniet molestiae non obcaecati fuga ducimus quis inventore magnam sint quaerat repellendus et? 
+                                        Ut eum quo optio vitae perferendis, libero dolorem?    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial__card">
+                                <div class="testimonial__img">
+                                    <img src="./img/img_5.jpg" alt="">
+                                </div>
+                                <h2 class="testimonial__name">Lorem ipsum 5</h2>
+                                <div class="testimonial__description" >
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa sapiente autem soluta ullam aliquam. 
+                                        Accusantium obcaecati, architecto fugit dolore hic dolorum facilis, accusamus numquam molestias natus pariatur, 
+                                        porro ratione quo perspiciatis voluptatem reiciendis inventore. Excepturi vero quam laboriosam ut et cumque? 
+                                        Vitae cumque ipsa magni minus molestias repellat, sapiente debitis, voluptate facilis, 
+                                        illum eveniet molestiae non obcaecati fuga ducimus quis inventore magnam sint quaerat repellendus et? 
+                                        Ut eum quo optio vitae perferendis, libero dolorem?    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial__card">
+                                <div class="testimonial__img">
+                                    <img src="./img/img_6.jpg" alt="">
+                                </div>
+                                <h2 class="testimonial__name">Lorem ipsum 6</h2>
+                                <div class="testimonial__description" >
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam culpa sapiente autem soluta ullam aliquam. 
+                                        Accusantium obcaecati, architecto fugit dolore hic dolorum facilis, accusamus numquam molestias natus pariatur, 
+                                        porro ratione quo perspiciatis voluptatem reiciendis inventore. Excepturi vero quam laboriosam ut et cumque? 
+                                        Vitae cumque ipsa magni minus molestias repellat, sapiente debitis, voluptate facilis, 
+                                        illum eveniet molestiae non obcaecati fuga ducimus quis inventore magnam sint quaerat repellendus et? 
+                                        Ut eum quo optio vitae perferendis, libero dolorem?    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial__card">
+                                <div class="testimonial__img">
+                                    <img src="./img/img_7.jpg" alt="">
+                                </div>
+                                <h2 class="testimonial__name">Lorem ipsum 7</h2>
+                                <p class="testimonial__description">lorem ipsum dol</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- navigation buttons -->
+                <div class="testimonial-next-prev">
+                    <div id="testimonial-prev" class="swiper-button-prev">
+                        <svg 
+                            version="1.1" id="Capa_1" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            x="0px" y="0px"
+                            viewBox="0 0 512 512" 
+                            xml:space="preserve"
+                        >
+                            <g>
+                                <path 
+                                    d="M506.134,241.843c-0.006-0.006-0.011-0.013-0.018-0.019l-104.504-104c-7.829-7.791-20.492-7.762-28.285,0.068
+                                        c-7.792,7.829-7.762,20.492,0.067,28.284L443.558,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h423.557
+                                        l-70.162,69.824c-7.829,7.792-7.859,20.455-0.067,28.284c7.793,7.831,20.457,7.858,28.285,0.068l104.504-104
+                                        c0.006-0.006,0.011-0.013,0.018-0.019C513.968,262.339,513.943,249.635,506.134,241.843z"
+                                />
+                            </g>
+                        </svg>
+                    </div>
+                    <div id="testimonial-next" class="swiper-button-next">
+                        <svg 
+                            version="1.1" id="Capa_1" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            x="0px" y="0px"
+                            viewBox="0 0 512 512" 
+                            xml:space="preserve"
+                        >
+                            <g>
+                                <path 
+                                    d="M506.134,241.843c-0.006-0.006-0.011-0.013-0.018-0.019l-104.504-104c-7.829-7.791-20.492-7.762-28.285,0.068
+                                        c-7.792,7.829-7.762,20.492,0.067,28.284L443.558,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h423.557
+                                        l-70.162,69.824c-7.829,7.792-7.859,20.455-0.067,28.284c7.793,7.831,20.457,7.858,28.285,0.068l104.504-104
+                                        c0.006-0.006,0.011-0.013,0.018-0.019C513.968,262.339,513.943,249.635,506.134,241.843z"
+                                />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
     <section id="faq">
         <div class="container">
             <div class="section-header">
@@ -2044,6 +2357,33 @@
     <script src="/js/default-assets/active.js"></script>
     <script src="https://use.fontawesome.com/940386bfc9.js"></script>
     <script>
+        // js for testimonial section start
+        (function() {
+            'use strict'; 
+            const mySwiper = new Swiper ('#swiper1', {
+                
+                loop: false,
+                
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                
+                a11y: true,
+                keyboardControl: true,
+                grabCursor: true,
+                forceToAxis: true,
+
+                // pagination
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                
+                // navigation arrows
+                nextButton: '#testimonial-prev',
+                prevButton: '#testimonial-prev',
+                
+            });
+        })();
+        // js for testimonial section end
+
         var mobile = document.getElementById('mobile');
         var desktop = document.getElementById('desktop');
         var mobile_logo = document.getElementById('logo-mob');
