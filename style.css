@@ -1492,7 +1492,7 @@ input:required {
   position: relative;
   z-index: 1; }
   .our-speaker-area .row {
-    margin-left: -20px;
+    margin-left: -60px;
     margin-right: -20px; }
     @media only screen and (max-width: 767px) {
       .our-speaker-area .row {
@@ -1510,18 +1510,24 @@ input:required {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  border: none;
   margin-bottom: 40px;
-  border-radius: 10px; }
+  border-radius: 10px; 
+  }
   .single-speaker-area .speaker-single-thumb {
     position: relative;
     z-index: 1;
-    border-radius: 10px; }
+    border: none;
+    border-radius: 10%; }
     .single-speaker-area .speaker-single-thumb img {
       -webkit-transition-duration: 1500ms;
       -o-transition-duration: 1500ms;
       transition-duration: 1500ms;
-      border-radius: 10px;
-      width: 100%; }
+      width: 100%;
+      border-radius: 50%;
+      margin-bottom: 80px;
+
+   }
   .single-speaker-area .social-info {
     position: absolute;
     top: -180px;
@@ -1543,9 +1549,10 @@ input:required {
         margin-bottom: 0; }
   .single-speaker-area .speaker-info {
     position: absolute;
-    bottom: 25px;
-    left: 25px;
-    z-index: 22; }
+    bottom: 10px;
+    left: 20px;
+    z-index: 22;
+     }
     .single-speaker-area .speaker-info h5 {
       font-size: 15px;
       font-weight: 500;
