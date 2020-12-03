@@ -32,6 +32,7 @@ Last Update: March 14, 2019
     19.0 Sponsor Area CSS
     20.0 Contact Area CSS
     21.0 CTA Area CSS
+    22.0 Stats Area CSS
 --------------------------------------------- */
 /* Import Fonts & All CSS */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700");
@@ -2901,6 +2902,51 @@ input:required {
 
 svg path {
   fill: #fff !important;
+}
+
+/* :: 22.0 Stats Area CSS */
+.milestone-number {
+  margin-top: 20px;
+  color: #111342;
+  font-size: 0;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.number-holder {
+  font-size: 45px;
+}
+.number-suffix {
+  margin: 0;
+  font-size: 45px;
+  padding: 0;
+}
+
+.fas {
+  color: #1e3150 !important;
+}
+
+.milestone-desc {
+  margin-top: 5px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #333333;
+  padding-top: 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+.milestone-desc::after {
+  background: #323232;
+  left: 50%;
+  transform: translate(-50%, 0);
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  top: 0;
 }
 
 /* .our-blog-area .bg-img .bg-gradient-overlay .section-padding-100-60{
