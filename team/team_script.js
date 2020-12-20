@@ -1,4 +1,4 @@
-var img_path = "/img/bg-img/4.jpg"
+var img_path = "../img/bg-img/4.jpg"
 var link = "https://google.com"
 var name = "FirstName LastName"
 
@@ -378,7 +378,7 @@ function insert_in_div(insert_div, persons) {
             <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                 <!-- Thumb -->
                 <div class="speaker-single-thumb">
-                    <img src="img/team_page` + person.image_path + `" alt="" style="height:325px">
+                    <img src="../img/team_page/` + person.image_path + `" alt="" style="height:325px">
                 </div>
                 <!-- Social Info -->
                 <div class="social-info">
